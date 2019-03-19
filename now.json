@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias": "kohlnorville",
+  "name": "kohlnorville",
+  "builds": [
+    { "src": "index.html", "use": "@now/html-minifier" },
+    { "src": "css/base.css", "use": "@now/html-minifier" }
+  ]
+}
